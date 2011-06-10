@@ -695,7 +695,7 @@ function saveSection(section) { // Validate and save data
 			return 0;
 		}
 		if (myCharacter.CPSpentOnKnowledgeSkills < 300) {
-			alert("You must must purchase a minimum of 400 CP of Active skills.");
+			alert("You must must purchase a minimum of 300 CP of Knowledge skills.");
 			return 0;
 		}
 		// Check Incompetent trait
